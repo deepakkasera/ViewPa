@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "135037032808",
+    "firebase_url": "https://viewpager2-1084e.firebaseio.com",
+    "project_id": "viewpager2-1084e",
+    "storage_bucket": "viewpager2-1084e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135037032808:android:95e9f5a33f5a9264",
+        "android_client_info": {
+          "package_name": "com.example.deepak.viewpager2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135037032808-6c1q9qjnsb389fnsmaahqt5j2nfrruj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deepak.viewpager2",
+            "certificate_hash": "c388129a6c7f40f51dfe21e71fc5ce03dc181e96"
+          }
+        },
+        {
+          "client_id": "135037032808-63pllpi1sp6npoqhhehp5b44i81o8h0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtpHJQxXQ8KGghQ3ODNkMCKptK4oz7t8E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135037032808-63pllpi1sp6npoqhhehp5b44i81o8h0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
