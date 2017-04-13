@@ -44,7 +44,10 @@ public class Tab3 extends Fragment {
         PlacementRecordsYearAdapter placementRecordsYearAdapter = new PlacementRecordsYearAdapter();
         rvPlacementsRecords.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvPlacementsRecords.setAdapter(placementRecordsYearAdapter);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6ad65d8ed9a1670c8ef9ae3ec8d14208c6f8d214
     }
 
     class PlacmentRecordsyearHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -67,8 +70,13 @@ public class Tab3 extends Fragment {
 
         @Override
         public PlacmentRecordsyearHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+<<<<<<< HEAD
 
             LayoutInflater layoutInflater = getLayoutInflater(null);
+=======
+            LayoutInflater layoutInflater = getLayoutInflater(null);
+            
+>>>>>>> 6ad65d8ed9a1670c8ef9ae3ec8d14208c6f8d214
             View itemView;
             itemView = layoutInflater.inflate(R.layout.rv_placement_records_year,parent,false);
             return new PlacmentRecordsyearHolder(itemView);
@@ -77,12 +85,20 @@ public class Tab3 extends Fragment {
         @Override
         public void onBindViewHolder(PlacmentRecordsyearHolder holder, int position) {
             PlacementRecordsYear placementRecordsYear = placementRecordsYearArrayList.get(position);
+<<<<<<< HEAD
             holder.tvRecordYear.setText(String.valueOf(placementRecordsYear.getYear())) ;
+=======
+            holder.tvRecordYear.setText(placementRecordsYear.getYear());
+>>>>>>> 6ad65d8ed9a1670c8ef9ae3ec8d14208c6f8d214
         }
 
         @Override
         public int getItemCount() {
+<<<<<<< HEAD
             return placementRecordsYearArrayList.size();
+=======
+            return 0;
+>>>>>>> 6ad65d8ed9a1670c8ef9ae3ec8d14208c6f8d214
         }
     }
 }
